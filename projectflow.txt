@@ -1,0 +1,15 @@
+1. Create a git repo and clone it in local setup.
+2. Create a mycode.py file and code to it. (it will save a csv file to a new "data" folder)
+3. py -3.11 -V
+4. py -3.11 -m venv .venv
+5. source .venv/Scritps/activate
+6. python -m pip install --upgrade pip
+7. create a requirements.txt file for libraries
+8. pip install -r requirements.txt (mlflow)
+
+9. run "mlflow ui" command
+10. run the experiment file with the code block and check experiment on mlflow ui
+
+11. delete the run id from the VSCode to delete it from mlflow ui
+
+12. 

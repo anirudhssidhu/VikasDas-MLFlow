@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/214028050147575639/0ebbfe80c43e400b814ba417091326b3/artifacts
+end_time: 1762597066731
+entry_point_name: ''
+experiment_id: '214028050147575639'
+lifecycle_stage: active
+run_id: 0ebbfe80c43e400b814ba417091326b3
+run_name: funny-squirrel-220
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762597066187
+status: 3
+tags: []
+user_id: bhavyakala
