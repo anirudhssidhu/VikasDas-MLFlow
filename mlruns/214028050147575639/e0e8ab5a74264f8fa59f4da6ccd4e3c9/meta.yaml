@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/214028050147575639/e0e8ab5a74264f8fa59f4da6ccd4e3c9/artifacts
+end_time: 1762597987859
+entry_point_name: ''
+experiment_id: '214028050147575639'
+lifecycle_stage: active
+run_id: e0e8ab5a74264f8fa59f4da6ccd4e3c9
+run_name: welcoming-koi-640
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762597985791
+status: 4
+tags: []
+user_id: bhavyakala

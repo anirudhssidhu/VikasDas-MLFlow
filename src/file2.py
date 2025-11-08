@@ -4,10 +4,15 @@ from sklearn.datasets import load_wine
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
 import seaborn as sns
 
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
+from mlflow.models import infer_signature
+
+import dagshub
+dagshub.init(repo_owner='honey1414', repo_name='VikasDas-MLFlow', mlflow=True)
+
+mlflow.set_tracking_uri("https://dagshub.com/honey1414/VikasDas-MLFlow.mlflow")
 
 # load the wine dataset
 wine = load_wine()
@@ -19,11 +24,13 @@ y = wine.target
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42)
 
 # Define params for RandomForest Model
-max_depth = 8
-n_estimators = 18
+max_depth = 5
+n_estimators = 15
 
 # mention your experiment below
-mlflow.set_experiment('YT-MLOPS-EXP1')
+mlflow.autolog()
+mlflow.set_experiment('YT-MLOPS-AutoLOgEXp')
+
 
 with mlflow.start_run():
     rf = RandomForestClassifier(max_depth=max_depth, n_estimators=n_estimators, random_state=42)
@@ -32,10 +39,6 @@ with mlflow.start_run():
     y_pred = rf.predict(X_test)
 
     accuracy = accuracy_score(y_test, y_pred)
-
-    mlflow.log_metric('accuracy', accuracy)
-    mlflow.log_param('max_depth', max_depth)
-    mlflow.log_param('n_estimators', n_estimators)
 
     # creating a confusion matrix plot
     cm = confusion_matrix(y_test, y_pred)
@@ -49,16 +52,8 @@ with mlflow.start_run():
     plt.savefig("confusion_matrix.png")
 
     # log artifacts using mlflow
-    mlflow.log_artifact("confusion_matrix.png")
     mlflow.log_artifact(__file__)
 
-    # tags 
-    mlflow.set_tags({
-        "author": "anirudh",
-        "project": "wine-clf",
-    })
-
-    # log the model
-    mlflow.sklearn.log_model(rf, "Random-Forest-Model")
-
+    #tags
+    mlflow.set_tags({"Author": 'anirudh', 'Project': "Wine Classifier"})
     print(f"Accuracy: {accuracy:.3f}")

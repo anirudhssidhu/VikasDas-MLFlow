@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/741440399477262673/4d8d3d199d334e2a8109a58daeb02f9a/artifacts
+end_time: 1762604163206
+entry_point_name: ''
+experiment_id: '741440399477262673'
+lifecycle_stage: active
+run_id: 4d8d3d199d334e2a8109a58daeb02f9a
+run_name: indecisive-vole-885
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762604144709
+status: 3
+tags: []
+user_id: bhavyakala

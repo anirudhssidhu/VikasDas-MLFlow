@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/741440399477262673/d9b06d5cc0a94c1abfc4f79b77c18ebc/artifacts
+end_time: 1762604412310
+entry_point_name: ''
+experiment_id: '741440399477262673'
+lifecycle_stage: active
+run_id: d9b06d5cc0a94c1abfc4f79b77c18ebc
+run_name: calm-squid-941
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762604412194
+status: 3
+tags: []
+user_id: bhavyakala

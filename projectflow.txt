@@ -12,4 +12,5 @@
 
 11. delete the run id from the VSCode to delete it from mlflow ui
 
-12. 
+12. mlflow server architecture ( remote tracking with Tracking server)
+    - use Dagshub

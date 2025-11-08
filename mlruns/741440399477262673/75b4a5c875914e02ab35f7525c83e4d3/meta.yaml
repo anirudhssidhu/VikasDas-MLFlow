@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/741440399477262673/75b4a5c875914e02ab35f7525c83e4d3/artifacts
+end_time: 1762604410895
+entry_point_name: ''
+experiment_id: '741440399477262673'
+lifecycle_stage: active
+run_id: 75b4a5c875914e02ab35f7525c83e4d3
+run_name: wistful-midge-734
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762604410749
+status: 3
+tags: []
+user_id: bhavyakala

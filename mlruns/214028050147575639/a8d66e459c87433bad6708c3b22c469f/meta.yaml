@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/214028050147575639/a8d66e459c87433bad6708c3b22c469f/artifacts
+end_time: 1762598027484
+entry_point_name: ''
+experiment_id: '214028050147575639'
+lifecycle_stage: active
+run_id: a8d66e459c87433bad6708c3b22c469f
+run_name: dazzling-cow-440
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762598019899
+status: 3
+tags: []
+user_id: bhavyakala

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/741440399477262673/e243cd6d5a0e48a7955d1a482847563c/artifacts
+end_time: 1762604411773
+entry_point_name: ''
+experiment_id: '741440399477262673'
+lifecycle_stage: active
+run_id: e243cd6d5a0e48a7955d1a482847563c
+run_name: clean-loon-234
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762604411645
+status: 3
+tags: []
+user_id: bhavyakala

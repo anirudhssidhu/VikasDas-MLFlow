@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/741440399477262673/fc04bd58915a470b991bf28cf288d2cc/artifacts
+end_time: 1762604411959
+entry_point_name: ''
+experiment_id: '741440399477262673'
+lifecycle_stage: active
+run_id: fc04bd58915a470b991bf28cf288d2cc
+run_name: ambitious-toad-220
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762604411829
+status: 3
+tags: []
+user_id: bhavyakala

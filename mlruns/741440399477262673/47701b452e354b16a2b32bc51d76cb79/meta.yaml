@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/741440399477262673/47701b452e354b16a2b32bc51d76cb79/artifacts
+end_time: 1762604411053
+entry_point_name: ''
+experiment_id: '741440399477262673'
+lifecycle_stage: active
+run_id: 47701b452e354b16a2b32bc51d76cb79
+run_name: amusing-sheep-441
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762604410945
+status: 3
+tags: []
+user_id: bhavyakala

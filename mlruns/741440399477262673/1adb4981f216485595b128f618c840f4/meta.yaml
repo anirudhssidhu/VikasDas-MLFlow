@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/741440399477262673/1adb4981f216485595b128f618c840f4/artifacts
+end_time: 1762604418660
+entry_point_name: ''
+experiment_id: '741440399477262673'
+lifecycle_stage: active
+run_id: 1adb4981f216485595b128f618c840f4
+run_name: bold-newt-174
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762604404105
+status: 3
+tags: []
+user_id: bhavyakala

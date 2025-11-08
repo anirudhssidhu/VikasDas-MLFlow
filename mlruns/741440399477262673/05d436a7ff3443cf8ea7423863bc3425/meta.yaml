@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/741440399477262673/05d436a7ff3443cf8ea7423863bc3425/artifacts
+end_time: 1762604412886
+entry_point_name: ''
+experiment_id: '741440399477262673'
+lifecycle_stage: active
+run_id: 05d436a7ff3443cf8ea7423863bc3425
+run_name: crawling-midge-465
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762604412765
+status: 3
+tags: []
+user_id: bhavyakala

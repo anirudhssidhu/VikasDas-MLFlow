@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/741440399477262673/fe07ad445d034ef6929805e1152224b2/artifacts
+end_time: 1762604412502
+entry_point_name: ''
+experiment_id: '741440399477262673'
+lifecycle_stage: active
+run_id: fe07ad445d034ef6929805e1152224b2
+run_name: unleashed-perch-585
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762604412364
+status: 3
+tags: []
+user_id: bhavyakala

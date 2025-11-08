@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/741440399477262673/e0d1a977147c40e4a4e889c2b0ba3ed6/artifacts
+end_time: 1762604412149
+entry_point_name: ''
+experiment_id: '741440399477262673'
+lifecycle_stage: active
+run_id: e0d1a977147c40e4a4e889c2b0ba3ed6
+run_name: mercurial-stag-819
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762604412031
+status: 3
+tags: []
+user_id: bhavyakala
